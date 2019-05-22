@@ -1,0 +1,13 @@
+version: '2'
+services:
+  mysql:
+    image: mysql:5.7.26
+    environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_DATABASE=db
+    - MYSQL_USER=user
+    - MYSQL_PASSWORD=userPassword
+    ports:
+    - 3306:3306
+    volumes:
+    - ./data:/var/lib/mysql
