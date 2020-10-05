@@ -12,7 +12,16 @@ cd mysql_5.7.26
 #stop
 ./stop.sh
 ```
+
 ---
 
+## mysql_8_0_21
+```
+cd mysql_8.0.21
+#start(restart)
+./start.sh
+
+#stop
+./stop.sh
 
 
